@@ -1,0 +1,93 @@
+body {
+    background-color: #111;
+    color: #cccccc;
+}
+
+.path-list {
+    width: 100%;
+}
+
+.path-crumbs {
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.crumb-text {
+    margin: 0 3px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s;
+    font-weight: bold;
+}
+
+.crumb-text:hover {
+    background-color: #ffffff13;
+}
+
+.crumb-text:active {
+    background-color: #ffffff1f;
+}
+
+.path-item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.path-item:first-of-type .path-container {
+    border-top: solid 2px #ffffff11;
+    border-radius: 5px 5px 0 0;
+}
+
+.path-item:last-of-type .path-container {
+    border-radius: 0 0 5px 5px;
+}
+
+.path-icon {
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    display: inline-block;
+}
+
+.icon {
+    font-size: 26px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.icon:hover {
+    background-color: #ffffff13;
+}
+
+.path-container {
+    background-color: #ffffff0a;
+    border: solid 2px #ffffff11;
+    border-top: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    padding: 3px;
+    width: 100%;
+}
+
+.path-container:hover {
+    background-color: #ffffff13;
+}
+
+.path.container:active {
+    background-color: #ffffff1f;
+}
+
+.path-label {
+    display: inline-block;
+    margin: 0;
+    padding: 7px;
+    vertical-align: middle;
+    letter-spacing: 2px;
+}
